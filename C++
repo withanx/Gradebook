@@ -1,0 +1,31 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+    int grade = 16; // the number you type in will be converted into a grade
+
+    if (grade > 90) // if your grade is above 90, you have an A
+    {
+        cout << "You have an A.";
+    }
+    else if (grade > 79) // if your grade is not 90, you will get a B
+    {
+        cout << "You have a B.";
+    }
+
+    else if (grade > 69) // if your grade is not above 79, you will get a C
+    {
+        cout << "You have a C.";
+    }
+
+    else if (grade > 59) // if your grade is not above 59, you will get a D
+    {
+        cout << "You have a D.";
+    }
+
+    else
+    {
+        cout << "You have a F."; // If you have below a 59, you will get a F
+    }
+}
